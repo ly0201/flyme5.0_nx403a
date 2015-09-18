@@ -801,7 +801,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e0029
+    const v1, #android:integer@config_wifi_framework_associated_scan_interval#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -839,7 +839,7 @@
 
     move-result-object v0
 
-    const v1, 0x1120020
+    const v1, #android:bool@config_wifi_only_link_same_credential_configurations#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -854,7 +854,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e002d
+    const v1, #android:integer@config_wifi_framework_associated_partial_scan_max_num_active_channels#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -869,7 +869,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e002e
+    const v1, #android:integer@config_wifi_framework_associated_partial_scan_max_num_passive_channels#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -884,7 +884,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e002b
+    const v1, #android:integer@config_wifi_framework_associated_full_scan_max_interval#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -899,7 +899,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e002a
+    const v1, #android:integer@config_wifi_framework_associated_full_scan_backoff#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -914,7 +914,7 @@
 
     move-result-object v0
 
-    const v1, 0x112001b
+    const v1, #android:bool@config_wifi_enable_disconnection_debounce#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -929,7 +929,7 @@
 
     move-result-object v0
 
-    const v1, 0x112001c
+    const v1, #android:bool@config_wifi_enable_5GHz_preference#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -944,7 +944,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e0010
+    const v1, #android:integer@config_wifi_framework_5GHz_preference_boost_factor#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -959,7 +959,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e0014
+    const v1, #android:integer@config_wifi_framework_5GHz_preference_penalty_factor#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -974,7 +974,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e0013
+    const v1, #android:integer@config_wifi_framework_5GHz_preference_penalty_threshold#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -989,7 +989,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e000f
+    const v1, #android:integer@config_wifi_framework_5GHz_preference_boost_threshold#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1004,7 +1004,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e0011
+    const v1, #android:integer@config_wifi_framework_current_association_hysteresis_high#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1019,7 +1019,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e0012
+    const v1, #android:integer@config_wifi_framework_current_association_hysteresis_low#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1034,7 +1034,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e0015
+    const v1, #android:integer@config_wifi_framework_wifi_score_bad_rssi_threshold_5GHz#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1049,7 +1049,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e0016
+    const v1, #android:integer@config_wifi_framework_wifi_score_low_rssi_threshold_5GHz#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1064,7 +1064,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e0017
+    const v1, #android:integer@config_wifi_framework_wifi_score_good_rssi_threshold_5GHz#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1079,7 +1079,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e0018
+    const v1, #android:integer@config_wifi_framework_wifi_score_bad_rssi_threshold_24GHz#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1094,7 +1094,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e0019
+    const v1, #android:integer@config_wifi_framework_wifi_score_low_rssi_threshold_24GHz#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1109,7 +1109,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e001a
+    const v1, #android:integer@config_wifi_framework_wifi_score_good_rssi_threshold_24GHz#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1124,7 +1124,7 @@
 
     move-result-object v0
 
-    const v1, 0x112001d
+    const v1, #android:bool@config_wifi_framework_cellular_handover_enable_user_triggered_adjustment#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -1139,7 +1139,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e001b
+    const v1, #android:integer@config_wifi_framework_wifi_score_bad_link_speed_24#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1154,7 +1154,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e001c
+    const v1, #android:integer@config_wifi_framework_wifi_score_bad_link_speed_5#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1169,7 +1169,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e001d
+    const v1, #android:integer@config_wifi_framework_wifi_score_good_link_speed_24#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1184,7 +1184,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e001e
+    const v1, #android:integer@config_wifi_framework_wifi_score_good_link_speed_5#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1199,7 +1199,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e0030
+    const v1, #android:integer@config_wifi_framework_max_auth_errors_to_blacklist#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1214,7 +1214,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e002f
+    const v1, #android:integer@config_wifi_framework_max_connection_errors_to_blacklist#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1229,7 +1229,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e0031
+    const v1, #android:integer@config_wifi_framework_network_black_list_min_time_milli#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1244,7 +1244,7 @@
 
     move-result-object v0
 
-    const v1, 0x112001e
+    const v1, #android:bool@config_wifi_framework_enable_associated_autojoin_scan#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -1259,7 +1259,7 @@
 
     move-result-object v0
 
-    const v1, 0x112001f
+    const v1, #android:bool@config_wifi_framework_enable_associated_network_selection#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -2384,11 +2384,11 @@
 
     goto/16 :goto_1
 
-    .line 2745
     :cond_10
+    invoke-direct/range {p0 .. p1}, Lcom/android/server/wifi/WifiConfigStore;->mzSetKeyEncry(Landroid/net/wifi/WifiConfiguration;)V
+
     const/4 v13, 0x0
 
-    .line 2746
     .local v13, "hasSetKey":Z
     move-object/from16 v0, p1
 
@@ -3655,6 +3655,12 @@
     invoke-direct {v0, v9}, Lcom/android/server/wifi/WifiConfigStore;->readNetworkVariables(Landroid/net/wifi/WifiConfiguration;)V
 
     .line 2937
+    move-object/from16 v0, p0
+
+    move-object/from16 v1, p1
+
+    invoke-direct {v0, v1, v9}, Lcom/android/server/wifi/WifiConfigStore;->mzSetKeyEncry(Landroid/net/wifi/WifiConfiguration;Landroid/net/wifi/WifiConfiguration;)V
+
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/server/wifi/WifiConfigStore;->mConfiguredNetworks:Ljava/util/HashMap;
@@ -17964,6 +17970,10 @@
 
     .line 1404
     :cond_4
+    move-object/from16 v0, p0
+
+    invoke-direct {v0, v14, v4}, Lcom/android/server/wifi/WifiConfigStore;->mzSetKeyEncry(Ljava/lang/String;Landroid/net/wifi/WifiConfiguration;)V
+
     iget v0, v4, Landroid/net/wifi/WifiConfiguration;->priority:I
 
     move/from16 v19, v0
@@ -22294,4 +22304,165 @@
     invoke-virtual {v4, v5, v6}, Lcom/android/server/net/DelayedDiskWrite;->write(Ljava/lang/String;Lcom/android/server/net/DelayedDiskWrite$Writer;)V
 
     goto :goto_1
+.end method
+
+.method private mzSetKeyEncry(Landroid/net/wifi/WifiConfiguration;)V
+    .locals 3
+    .param p1, "config"    # Landroid/net/wifi/WifiConfiguration;
+
+    .prologue
+    const/4 v2, 0x0
+
+    iget-object v0, p1, Landroid/net/wifi/WifiConfiguration;->preSharedKey:Ljava/lang/String;
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p1, Landroid/net/wifi/WifiConfiguration;->preSharedKey:Ljava/lang/String;
+
+    const-string v1, "*"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p1, Landroid/net/wifi/WifiConfiguration;->preSharedKey:Ljava/lang/String;
+
+    iput-object v0, p1, Landroid/net/wifi/WifiConfiguration;->preSharedKeyEncry:Ljava/lang/String;
+
+    :cond_0
+    iget-object v0, p1, Landroid/net/wifi/WifiConfiguration;->wepKeys:[Ljava/lang/String;
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p1, Landroid/net/wifi/WifiConfiguration;->wepKeys:[Ljava/lang/String;
+
+    aget-object v0, v0, v2
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    iget-object v0, p1, Landroid/net/wifi/WifiConfiguration;->wepKeys:[Ljava/lang/String;
+
+    aget-object v0, v0, v2
+
+    const-string v1, "*"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    iget-object v0, p1, Landroid/net/wifi/WifiConfiguration;->wepKeys:[Ljava/lang/String;
+
+    aget-object v0, v0, v2
+
+    iput-object v0, p1, Landroid/net/wifi/WifiConfiguration;->wepKeyEncry:Ljava/lang/String;
+
+    :cond_1
+    return-void
+.end method
+
+.method private mzSetKeyEncry(Landroid/net/wifi/WifiConfiguration;Landroid/net/wifi/WifiConfiguration;)V
+    .locals 3
+    .param p1, "config"    # Landroid/net/wifi/WifiConfiguration;
+    .param p2, "currentConfig"    # Landroid/net/wifi/WifiConfiguration;
+
+    .prologue
+    const/4 v2, 0x0
+
+    iget-object v0, p1, Landroid/net/wifi/WifiConfiguration;->preSharedKey:Ljava/lang/String;
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p1, Landroid/net/wifi/WifiConfiguration;->preSharedKey:Ljava/lang/String;
+
+    const-string v1, "*"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p1, Landroid/net/wifi/WifiConfiguration;->preSharedKey:Ljava/lang/String;
+
+    iput-object v0, p2, Landroid/net/wifi/WifiConfiguration;->preSharedKeyEncry:Ljava/lang/String;
+
+    :cond_0
+    iget-object v0, p1, Landroid/net/wifi/WifiConfiguration;->wepKeys:[Ljava/lang/String;
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p1, Landroid/net/wifi/WifiConfiguration;->wepKeys:[Ljava/lang/String;
+
+    aget-object v0, v0, v2
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    iget-object v0, p1, Landroid/net/wifi/WifiConfiguration;->wepKeys:[Ljava/lang/String;
+
+    aget-object v0, v0, v2
+
+    const-string v1, "*"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    iget-object v0, p1, Landroid/net/wifi/WifiConfiguration;->wepKeys:[Ljava/lang/String;
+
+    aget-object v0, v0, v2
+
+    iput-object v0, p2, Landroid/net/wifi/WifiConfiguration;->wepKeyEncry:Ljava/lang/String;
+
+    :cond_1
+    return-void
+.end method
+
+.method private mzSetKeyEncry(Ljava/lang/String;Landroid/net/wifi/WifiConfiguration;)V
+    .locals 3
+    .param p1, "psk"    # Ljava/lang/String;
+    .param p2, "config"    # Landroid/net/wifi/WifiConfiguration;
+
+    .prologue
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    iput-object p1, p2, Landroid/net/wifi/WifiConfiguration;->preSharedKeyEncry:Ljava/lang/String;
+
+    :cond_0
+    iget-object v1, p2, Landroid/net/wifi/WifiConfiguration;->SSID:Ljava/lang/String;
+
+    const-string v2, "wep_key0"
+
+    invoke-direct {p0, v1, v2}, Lcom/android/server/wifi/WifiConfigStore;->readNetworkVariableFromSupplicantFile(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    .local v0, "wepKey":Ljava/lang/String;
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_1
+
+    iput-object v0, p2, Landroid/net/wifi/WifiConfiguration;->wepKeyEncry:Ljava/lang/String;
+
+    :cond_1
+    return-void
 .end method

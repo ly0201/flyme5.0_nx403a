@@ -14,7 +14,7 @@ ro.build.type=userdebug
 ro.build.user=bsquare
 ro.build.host=bsquare-ThinkPad-T440p
 ro.build.tags=test-keys
-ro.product.brand=Nubia
+ro.product.brand=nubia
 ro.product.name=cm_nx403a
 ro.product.board=MSM8960
 # ro.product.cpu.abi and ro.product.cpu.abi2 are obsolete,
@@ -28,9 +28,9 @@ ro.product.manufacturer=nubia
 ro.wifi.channels=
 ro.board.platform=msm8960
 # ro.build.product is obsolete; use ro.product.device
-ro.build.product=nx403a
+ro.build.product=NX403A
 ro.product.model=NX403A
-ro.product.device=nx403a
+ro.product.device=NX403A
 # Do not try to parse description, fingerprint, or thumbprint
 ro.build.description=cm_nx403a-userdebug 5.0.2 LRX22G 7cf4f24291 test-keys
 ro.build.fingerprint=Nubia/cm_nx403a/nx403a:5.0.2/LRX22G/7cf4f24291:userdebug/test-keys
